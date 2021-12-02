@@ -1,0 +1,23 @@
+{
+  "name": "wgr/cakephp-postfinance",
+  "description": "CakePHP pages plugins",
+  "type": "cakephp-plugin",
+  "require": {
+    "php": ">=7.1",
+    "cakephp/cakephp": "^3.6",
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wgr\\Postfinance\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Wgr\\Postfinance\\Test\\": "tests",
+      "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+    }
+  }
+}
